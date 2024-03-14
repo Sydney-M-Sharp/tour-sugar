@@ -1,0 +1,28 @@
+we need to make a wire frame
+we need a database
+dependency graphy
+sequence diagram
+remember to store meta date for our bands
+
+
+Tour Venues
+At the bottom of the page, the name of each venue should be displayed in a bulleted list.
+When a venue name is clicked, a window alert should be presented to the user that displays all of the bands that have booked the venue.
+
+Bands
+At the bottom of the page, to the right of the venue list, the name of each band should be displayed in a bulleted list.
+When a band name is clicked, a window alert should be presented to the user that displays all of the venue at which the band is playing.
+
+Bookings
+Above the venue list and band name list, you should display all of the bookings that Samantha Ducarte has helped the bands make at each venue.
+
+Example Booking Text
+Rocket Pumpkins are playing at The Cellar Moss on 12/13/2023
+When a booking is clicked, a window alert should be presented to the user that displays all of the band information (name, genre, year formed, number of members).
+
+Example Booking Alert Text
+Rocket Pumpkins
+EDM
+Formed in 2005
+3 band members
+
