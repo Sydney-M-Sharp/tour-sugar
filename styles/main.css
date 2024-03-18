@@ -1,0 +1,63 @@
+body{
+    background-color: lightpink;
+}
+h1{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: thistle;
+    border-radius: 30px;
+}
+
+h3,h2{
+    
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.details{
+margin: 40px;
+}
+.bookings {
+   
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    display: flex;
+    justify-content: flex-start;
+
+    font-size:large;
+    margin: 10px;
+}
+.detail-booking{
+    background-color: rgb(216, 191, 216);
+    border-radius: 30px;
+
+}
+.lower_half_of_page{
+    
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    font-size:large
+}
+.detail-bands{
+    background-color: rgb(216, 191, 216);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.detail-venues{
+    background-color: rgb(216, 191, 216);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.bands{
+    margin: 10px;
+    
+}
+.venues{
+    margin: 10px;
+}
+

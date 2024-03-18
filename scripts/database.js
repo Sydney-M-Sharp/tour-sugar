@@ -150,7 +150,13 @@ const database = {
       bandId: 9,
       venueId: 4,
       date: "6/30/2024"
-    } ]
+    },
+    {
+      id: 10,
+      bandId: 9,
+      venueId: 1,
+      date: "6/30/2024"
+    }]
 }
 export const getBands = () => {
     return database.bands.map(band => ({...band}))
