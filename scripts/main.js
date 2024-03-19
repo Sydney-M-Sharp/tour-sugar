@@ -1,12 +1,6 @@
-// collect all of the functions from the other modules and using that info provide back the HTML 
-//the main will use a query to find a word in the index.html and replace it with the HTML writen in Main
-
 import { bandsHTML } from "./bands.js";
 import { bookingHTML } from "./bookings.js";
 import { venuesHTML } from "./venues.js";
-// import { getBands, getVenues } from "./database.js";
-// import { nameHTML } from "./utilities.js";
-
 
 // let bandshtml = nameHTML(getBands(),"bands") // uses the utilities function to get the bands name and returns html list
 // let venuehtml = nameHTML(getVenues(),"venue")

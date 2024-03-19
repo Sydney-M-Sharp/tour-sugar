@@ -1,5 +1,5 @@
 body{
-    background-color: lightpink;
+    background-color: rgb(255, 249, 250);
 }
 h1{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -25,11 +25,12 @@ margin: 40px;
     justify-content: flex-start;
 
     font-size:large;
-    margin: 10px;
+    margin: 8px;
 }
 .detail-booking{
     background-color: rgb(216, 191, 216);
     border-radius: 30px;
+    padding: 4px;
 
 }
 .lower_half_of_page{
@@ -37,13 +38,15 @@ margin: 40px;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     display: flex;
     justify-content: space-evenly;
-    font-size:large
+    font-size:large;
+    margin-top: 15px;
 }
 .detail-bands{
     background-color: rgb(216, 191, 216);
     border-radius: 30px;
     display: flex;
     flex-direction: column;
+    padding: 2px;
    
 }
 .detail-venues{
@@ -51,6 +54,7 @@ margin: 40px;
     border-radius: 30px;
     display: flex;
     flex-direction: column;
+    padding: 4px;
     
 }
 .bands{
