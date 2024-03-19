@@ -1,0 +1,24 @@
+Table venues {
+  id int pk
+  name varchar
+  address varchar
+  squarefootage int
+  maxcap int
+}
+
+Table bands {
+  id int pk
+  name varchar
+  numberofmembers int
+  genre varchar
+  yearbandstarted int
+}
+
+Table bookings {
+  id int pk
+  bandid int
+  venueid int
+  dateofbooking date
+}
+Ref: "venues"."id"<"bookings"."venueid"
+Ref: "bands"."id"<"bookings"."bandid"
